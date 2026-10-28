@@ -1,8 +1,8 @@
-"""Print Tables XI and XII of the paper exactly as they appear, from results/agg_v3.json.
-Usage: python make_tables.py   (run aggregate_v3.py first)"""
+"""Print Tables XI and XII of the paper exactly as they appear, from results/agg.json.
+Usage: python make_tables.py   (run aggregate.py first)"""
 import json
 
-A = json.load(open("results/agg_v3.json")); R = A["results"]
+A = json.load(open("results/agg.json")); R = A["results"]
 f = lambda m, k, s=100, d=1: f"{R[m][k][0]*s:.{d}f}±{R[m][k][1]*s:.{d}f}"
 
 print("TABLE XI  Simulation results over five runs (%, mean ± SD; genuine held per 10,000)")

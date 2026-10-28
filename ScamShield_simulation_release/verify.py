@@ -1,5 +1,5 @@
 """Check that a fresh run reproduces the shipped raw results exactly (timing fields excluded).
-Usage: python verify.py results/results_v3.json expected/results_v3.json"""
+Usage: python verify.py results/results.json expected/results.json"""
 import json, sys
 new, ref = (json.load(open(p)) for p in sys.argv[1:3])
 bad = 0

@@ -64,7 +64,7 @@ def train(seed=0, sms_path="data/sms.tsv"):
         res[name]["n"] = len(df)
     # scam-like subset of the real spam test messages (prize/claim, payment, account or urgency language)
     import re as _re
-    rx = _re.compile(r"(won|win|winner|prize|claim|award|selected|cash|urgent|account|bank|refund|guarantee|pay|£|\$)", _re.I)
+    rx = _re.compile(r"(?:won|win|winner|prize|claim|award|selected|cash|urgent|account|bank|refund|guarantee|pay|£|\$)", _re.I)
     sl = te[(te.y == 1) & te.t.str.contains(rx)]
     ps = sms.predict_proba(sl.t)[:, 1]
     res["uci_scamlike"] = dict(n=len(sl), share_of_test=len(sl) / len(te), share_of_spam=len(sl) / int(te.y.sum()),
