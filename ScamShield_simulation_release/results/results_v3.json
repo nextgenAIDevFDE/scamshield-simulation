@@ -1,0 +1,2292 @@
+{
+ "0": {
+  "results": {
+   "Bank ML": {
+    "intercepted": 0.6718346253229974,
+    "held": 0.0,
+    "intercepted_elderly": 0.6913183279742765,
+    "intercepted_nonelderly": 0.6493506493506493,
+    "gen_any": 0.009505143923407827,
+    "gen_t2": 0.0026173584716630244,
+    "gen_t3": 0.0,
+    "hold_precision": 0.0,
+    "int_active_scam": 0.6694214876033058,
+    "int_recent_scam": 0.6966824644549763,
+    "int_ott": 0.6445783132530121,
+    "int_unlinked": 0.6896551724137931,
+    "loss_prev_base": 0.5236880997003704,
+    "loss_prev_elderly_base": 0.507962963890386,
+    "loss_prev_low": 0.37179149089862795,
+    "loss_prev_elderly_low": 0.35469488592771214,
+    "loss_prev_high": 0.6605812885368145,
+    "loss_prev_elderly_high": 0.6526003176512415
+   },
+   "Call-status rule": {
+    "intercepted": 0.7527993109388458,
+    "held": 0.3281653746770026,
+    "intercepted_elderly": 0.7765273311897106,
+    "intercepted_nonelderly": 0.725417439703154,
+    "gen_any": 0.01907290407819515,
+    "gen_t2": 0.01281128094024533,
+    "gen_t3": 0.010544573364307495,
+    "hold_precision": 0.18450363196125907,
+    "int_active_scam": 0.7988980716253443,
+    "int_recent_scam": 0.6966824644549763,
+    "int_ott": 0.6445783132530121,
+    "int_unlinked": 0.6896551724137931,
+    "loss_prev_base": 0.7760824538676749,
+    "loss_prev_elderly_base": 0.7981987361309806,
+    "loss_prev_low": 0.6654600005303573,
+    "loss_prev_elderly_low": 0.6887605331002851,
+    "loss_prev_high": 0.8499389099346185,
+    "loss_prev_elderly_high": 0.869211918537624
+   },
+   "Call-status + risk": {
+    "intercepted": 0.7476313522825151,
+    "held": 0.32299741602067183,
+    "intercepted_elderly": 0.7717041800643086,
+    "intercepted_nonelderly": 0.7198515769944341,
+    "gen_any": 0.01488387819890672,
+    "gen_t2": 0.008622255060956902,
+    "gen_t3": 0.006355547485019067,
+    "hold_precision": 0.2697841726618705,
+    "int_active_scam": 0.790633608815427,
+    "int_recent_scam": 0.6966824644549763,
+    "int_ott": 0.6445783132530121,
+    "int_unlinked": 0.6896551724137931,
+    "loss_prev_base": 0.764158790697121,
+    "loss_prev_elderly_base": 0.7783512920683341,
+    "loss_prev_low": 0.6548611888231981,
+    "loss_prev_elderly_low": 0.671118360600155,
+    "loss_prev_high": 0.8373528210323669,
+    "loss_prev_elderly_high": 0.8482618386937193
+   },
+   "Mule risk feed": {
+    "intercepted": 0.7588285960378983,
+    "held": 0.23858742463393626,
+    "intercepted_elderly": 0.7861736334405145,
+    "intercepted_nonelderly": 0.7272727272727273,
+    "gen_any": 0.009505143923407827,
+    "gen_t2": 0.0026173584716630244,
+    "gen_t3": 0.0,
+    "hold_precision": 1.0,
+    "int_active_scam": 0.7672176308539945,
+    "int_recent_scam": 0.7535545023696683,
+    "int_ott": 0.7108433734939759,
+    "int_unlinked": 0.8103448275862069,
+    "loss_prev_base": 0.6467553745097423,
+    "loss_prev_elderly_base": 0.6131555927654887,
+    "loss_prev_low": 0.521595824043745,
+    "loss_prev_elderly_low": 0.4806515952840652,
+    "loss_prev_high": 0.7537298234527862,
+    "loss_prev_elderly_high": 0.7323466755108746
+   },
+   "ScamShield (full)": {
+    "intercepted": 0.9242032730404823,
+    "held": 0.6503014642549526,
+    "intercepted_elderly": 0.9405144694533762,
+    "intercepted_nonelderly": 0.9053803339517625,
+    "gen_any": 0.011846990977001058,
+    "gen_t2": 0.003287352147423655,
+    "gen_t3": 0.00012523246275899637,
+    "hold_precision": 0.9741935483870968,
+    "int_active_scam": 0.9889807162534435,
+    "int_recent_scam": 0.9478672985781991,
+    "int_ott": 0.6566265060240963,
+    "int_unlinked": 0.7931034482758621,
+    "loss_prev_base": 0.8857739319564848,
+    "loss_prev_elderly_base": 0.8973105704137344,
+    "loss_prev_low": 0.805202550202326,
+    "loss_prev_elderly_low": 0.8155802109881454,
+    "loss_prev_high": 0.9329977490064181,
+    "loss_prev_elderly_high": 0.9433421824264582
+   },
+   "ScamShield (message)": {
+    "intercepted": 0.9078380706287683,
+    "held": 0.549526270456503,
+    "intercepted_elderly": 0.9244372990353698,
+    "intercepted_nonelderly": 0.8886827458256029,
+    "gen_any": 0.013230809690487969,
+    "gen_t2": 0.0030932418301472106,
+    "gen_t3": 0.00015027895531079567,
+    "hold_precision": 0.9637462235649547,
+    "int_active_scam": 0.9765840220385675,
+    "int_recent_scam": 0.9004739336492891,
+    "int_ott": 0.6506024096385542,
+    "int_unlinked": 0.8103448275862069,
+    "loss_prev_base": 0.8590452107885307,
+    "loss_prev_elderly_base": 0.8620996603026552,
+    "loss_prev_low": 0.7675957165739653,
+    "loss_prev_elderly_low": 0.7646898688318262,
+    "loss_prev_high": 0.91800782862293,
+    "loss_prev_elderly_high": 0.9247291752268505
+   },
+   "ScamShield (metadata)": {
+    "intercepted": 0.8828596037898363,
+    "held": 0.3789836347975883,
+    "intercepted_elderly": 0.8987138263665595,
+    "intercepted_nonelderly": 0.8645640074211502,
+    "gen_any": 0.014163791538042491,
+    "gen_t2": 0.0030368872219056625,
+    "gen_t3": 0.00018158707100054475,
+    "hold_precision": 0.9381663113006397,
+    "int_active_scam": 0.9462809917355371,
+    "int_recent_scam": 0.8625592417061612,
+    "int_ott": 0.6566265060240963,
+    "int_unlinked": 0.8103448275862069,
+    "loss_prev_base": 0.8067485155171069,
+    "loss_prev_elderly_base": 0.8008780353115119,
+    "loss_prev_low": 0.6961234635848708,
+    "loss_prev_elderly_low": 0.6896766684588451,
+    "loss_prev_high": 0.8839077834442257,
+    "loss_prev_elderly_high": 0.8777984259694972
+   },
+   "Metadata, 75% of scam flags": {
+    "intercepted": 0.8397932816537468,
+    "held": 0.33936261843238585,
+    "intercepted_elderly": 0.8569131832797428,
+    "intercepted_nonelderly": 0.8200371057513914,
+    "gen_any": 0.014971540922838018,
+    "gen_t2": 0.003162119684664659,
+    "gen_t3": 0.00018158707100054475,
+    "hold_precision": 0.9314420803782506,
+    "int_active_scam": 0.8884297520661157,
+    "int_recent_scam": 0.8104265402843602,
+    "int_ott": 0.6686746987951807,
+    "int_unlinked": 0.8275862068965517,
+    "loss_prev_base": 0.7489866802146175,
+    "loss_prev_elderly_base": 0.7408291628987312,
+    "loss_prev_low": 0.6341482532342748,
+    "loss_prev_elderly_low": 0.6259402956559714,
+    "loss_prev_high": 0.8355660132475589,
+    "loss_prev_elderly_high": 0.826415180613536
+   },
+   "Metadata, 50% of scam flags": {
+    "intercepted": 0.8217054263565892,
+    "held": 0.31093884582256676,
+    "intercepted_elderly": 0.8360128617363344,
+    "intercepted_nonelderly": 0.8051948051948052,
+    "gen_any": 0.015522563758977603,
+    "gen_t2": 0.00312454994583696,
+    "gen_t3": 0.00018158707100054475,
+    "hold_precision": 0.9256410256410257,
+    "int_active_scam": 0.8539944903581267,
+    "int_recent_scam": 0.8009478672985783,
+    "int_ott": 0.7048192771084337,
+    "int_unlinked": 0.8275862068965517,
+    "loss_prev_base": 0.749780573926184,
+    "loss_prev_elderly_base": 0.7350313218953877,
+    "loss_prev_low": 0.6261496011589687,
+    "loss_prev_elderly_low": 0.608851324041494,
+    "loss_prev_high": 0.8453478366202446,
+    "loss_prev_elderly_high": 0.83408543677412
+   },
+   "Full, exact raw match": {
+    "intercepted": 0.9198966408268734,
+    "held": 0.5882859603789836,
+    "intercepted_elderly": 0.9372990353697749,
+    "intercepted_nonelderly": 0.8998144712430427,
+    "gen_any": 0.011609049297758965,
+    "gen_t2": 0.0031308115689749096,
+    "gen_t3": 0.00010644759334514693,
+    "hold_precision": 0.9757142857142858,
+    "int_active_scam": 0.9889807162534435,
+    "int_recent_scam": 0.9478672985781991,
+    "int_ott": 0.6265060240963856,
+    "int_unlinked": 0.7931034482758621,
+    "loss_prev_base": 0.8781273092034142,
+    "loss_prev_elderly_base": 0.8882957992506607,
+    "loss_prev_low": 0.7919761874105898,
+    "loss_prev_elderly_low": 0.7995902469526006,
+    "loss_prev_high": 0.9301825936402929,
+    "loss_prev_elderly_high": 0.9407726934644337
+   },
+   "Full, canonical, no expansion": {
+    "intercepted": 0.9198966408268734,
+    "held": 0.6434108527131783,
+    "intercepted_elderly": 0.9405144694533762,
+    "intercepted_nonelderly": 0.8961038961038961,
+    "gen_any": 0.011634095790310764,
+    "gen_t2": 0.003011840729353863,
+    "gen_t3": 0.00012523246275899637,
+    "hold_precision": 0.9739243807040417,
+    "int_active_scam": 0.9889807162534435,
+    "int_recent_scam": 0.9383886255924171,
+    "int_ott": 0.6445783132530121,
+    "int_unlinked": 0.7758620689655172,
+    "loss_prev_base": 0.8850433004884105,
+    "loss_prev_elderly_base": 0.8972809340977983,
+    "loss_prev_low": 0.8035829568601409,
+    "loss_prev_elderly_low": 0.8145163616117841,
+    "loss_prev_high": 0.932858712131833,
+    "loss_prev_elderly_high": 0.9440752291542505
+   },
+   "Full, no active-call rule": {
+    "intercepted": 0.9207579672695951,
+    "held": 0.5391903531438416,
+    "intercepted_elderly": 0.9372990353697749,
+    "intercepted_nonelderly": 0.9016697588126159,
+    "gen_any": 0.009968504035616112,
+    "gen_t2": 0.00311828832269901,
+    "gen_t3": 3.1308115689749094e-05,
+    "hold_precision": 0.9920760697305864,
+    "int_active_scam": 0.9834710743801653,
+    "int_recent_scam": 0.9478672985781991,
+    "int_ott": 0.6566265060240963,
+    "int_unlinked": 0.7931034482758621,
+    "loss_prev_base": 0.8453816477311926,
+    "loss_prev_elderly_base": 0.8560510618406214,
+    "loss_prev_low": 0.7453336809001252,
+    "loss_prev_elderly_low": 0.7557656791149234,
+    "loss_prev_high": 0.9143173959371697,
+    "loss_prev_elderly_high": 0.9239891077303853
+   }
+  },
+  "friction": {
+   "f_hat": 0.009105609671582027,
+   "q_call": 0.07437555963256795,
+   "q_new": 0.0709880215149371,
+   "q_call_and_new": 0.010544573364307495,
+   "predicted": 9.601476920874456e-05,
+   "measured": 9.392434706924729e-05,
+   "callstatus_measured": 0.010544573364307495
+  },
+  "benef": {
+   "raw": {
+    "exact": 0.5807770961145194,
+    "any": 0.5807770961145194
+   },
+   "canon": {
+    "exact": 0.9141104294478528,
+    "any": 0.9141104294478528
+   },
+   "exp": {
+    "exact": 0.9141104294478528,
+    "any": 0.9897750511247444
+   },
+   "n": 489,
+   "genuine_variant_matches": 1,
+   "genuine_exact_matches": 5,
+   "genuine_n": 159703
+  },
+  "meta": {
+   "flags": {
+    "meta": {
+     "scam_any": 0.8052181736392263,
+     "scam_high": 0.6140350877192983,
+     "benign_any": 0.06287162796519997,
+     "benign_high": 0.02005226262752707
+    },
+    "msg": {
+     "scam_any": 0.899685110211426,
+     "scam_high": 0.8101664417453891,
+     "benign_any": 0.048186455529824125,
+     "benign_high": 0.01403580146460537
+    },
+    "full": {
+     "scam_any": 0.954565901934323,
+     "scam_high": 0.9032838506522717,
+     "benign_any": 0.030653439319021092,
+     "benign_high": 0.008598297552732052
+    }
+   },
+   "cs_sweep": {
+    "0.02": {
+     "intercepted": 0.6976744186046512,
+     "held": 0.2730404823428079,
+     "gen_t3": 0.0017657777249018491,
+     "loss_prev_base": 0.696670987188358,
+     "intercepted_elderly": 0.7202572347266881
+    },
+    "0.05": {
+     "intercepted": 0.7278208440999139,
+     "held": 0.3031869078380706,
+     "gen_t3": 0.003562863565493447,
+     "loss_prev_base": 0.7451244578927707,
+     "intercepted_elderly": 0.7540192926045016
+    },
+    "0.1": {
+     "intercepted": 0.7476313522825151,
+     "held": 0.32299741602067183,
+     "gen_t3": 0.006355547485019067,
+     "loss_prev_base": 0.764158790697121,
+     "intercepted_elderly": 0.7717041800643086
+    },
+    "0.2": {
+     "intercepted": 0.7527993109388458,
+     "held": 0.3281653746770026,
+     "gen_t3": 0.009586545024201174,
+     "loss_prev_base": 0.7760824538676749,
+     "intercepted_elderly": 0.7765273311897106
+    },
+    "0.5": {
+     "intercepted": 0.7527993109388458,
+     "held": 0.3281653746770026,
+     "gen_t3": 0.0104193409015485,
+     "loss_prev_base": 0.7760824538676749,
+     "intercepted_elderly": 0.7765273311897106
+    }
+   },
+   "n_test": 160864,
+   "n_scam_test": 1161,
+   "n_genuine_test": 159703,
+   "tiers_full": {
+    "0": {
+     "0": 157811,
+     "1": 1367,
+     "2": 505,
+     "3": 20
+    },
+    "1": {
+     "0": 88,
+     "1": 54,
+     "2": 264,
+     "3": 755
+    }
+   },
+   "n_payments": 396630,
+   "n_scam": 2774,
+   "share_elderly_scam": 0.5724585436193222,
+   "ctx_scam": {
+    "active_scam": 0.6312184571016582,
+    "recent_scam": 0.17015140591204037,
+    "ott": 0.14671953857245854,
+    "unlinked": 0.05191059841384282
+   },
+   "mule_hit_scam": 0.25991348233597694
+  },
+  "telco": {
+   "sms_eval": {
+    "uci_real_test": {
+     "precision": 0.9807692307692307,
+     "recall": 0.9107142857142857,
+     "f1": 0.9444444444444444,
+     "accuracy": 0.9856545128511656,
+     "auc": 0.9917923691215617,
+     "n": 1673
+    },
+    "synthetic_scam_test": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "accuracy": 1.0,
+     "auc": 1.0,
+     "n": 1500
+    },
+    "uci_scamlike": {
+     "n": 125,
+     "share_of_test": 0.07471607890017933,
+     "share_of_spam": 0.5580357142857143,
+     "recall": 0.936
+    }
+   },
+   "call_eval": {
+    "precision": 1.0,
+    "recall": 0.9944444444444445,
+    "f1": 0.9972144846796658,
+    "accuracy": 0.9972222222222222,
+    "auc": 0.9999817901234568,
+    "n": 3600
+   },
+   "call_loso": {
+    "bank_impersonation": {
+     "precision": 1.0,
+     "recall": 0.7987927565392354,
+     "f1": 0.8881431767337807,
+     "accuracy": 0.8993963782696177,
+     "auc": 0.9976053504123331
+    },
+    "authority_impersonation": {
+     "precision": 1.0,
+     "recall": 0.9017341040462428,
+     "f1": 0.9483282674772037,
+     "accuracy": 0.9508670520231214,
+     "auc": 0.9998013817887519
+    },
+    "family_emergency": {
+     "precision": 1.0,
+     "recall": 0.6811740890688259,
+     "f1": 0.8103552077062011,
+     "accuracy": 0.8405870445344129,
+     "auc": 0.9964636365126457
+    },
+    "prize_refund": {
+     "precision": 1.0,
+     "recall": 0.8702213279678068,
+     "f1": 0.9306078536847767,
+     "accuracy": 0.9351106639839034,
+     "auc": 0.9991751312705205
+    },
+    "tech_support": {
+     "precision": 1.0,
+     "recall": 0.8424242424242424,
+     "f1": 0.9144736842105263,
+     "accuracy": 0.9212121212121213,
+     "auc": 0.9994633200693807
+    },
+    "investment": {
+     "precision": 1.0,
+     "recall": 0.8423694779116466,
+     "f1": 0.9144414168937329,
+     "accuracy": 0.9211847389558233,
+     "auc": 0.9981845050886275
+    }
+   },
+   "rep_eval": {
+    "precision": 0.7792207792207793,
+    "recall": 0.7,
+    "f1": 0.7374890254609306,
+    "accuracy": 0.9169444444444445,
+    "auc": 0.9559795833333333
+   },
+   "fusion_eval": {
+    "precision": 0.98875,
+    "recall": 0.8788888888888889,
+    "f1": 0.9305882352941176,
+    "accuracy": 0.9344444444444444,
+    "auc": 0.9937481481481482,
+    "tau": 0.8711122243986801,
+    "false_flag_rate": 0.01,
+    "recall_with_transcript": 0.979381443298969,
+    "recall_metadata_only": 0.61003861003861
+   }
+  },
+  "latency": {
+   "bank_decision_ms": 2.1283243959999965,
+   "oprf_ms": 28.70294792500019,
+   "telco_scoring_ms": 3.320495973333332
+  }
+ },
+ "1": {
+  "results": {
+   "Bank ML": {
+    "intercepted": 0.6974716652136007,
+    "held": 0.0,
+    "intercepted_elderly": 0.7298091042584435,
+    "intercepted_nonelderly": 0.6502145922746781,
+    "gen_any": 0.009657055537463363,
+    "gen_t2": 0.0029058844159422833,
+    "gen_t3": 0.0,
+    "hold_precision": 0.0,
+    "int_active_scam": 0.7237196765498652,
+    "int_recent_scam": 0.6338797814207651,
+    "int_ott": 0.6436781609195402,
+    "int_unlinked": 0.7291666666666666,
+    "loss_prev_base": 0.5353754604490597,
+    "loss_prev_elderly_base": 0.5604604067218988,
+    "loss_prev_low": 0.37999462548389673,
+    "loss_prev_elderly_low": 0.397182866809513,
+    "loss_prev_high": 0.6755210010646664,
+    "loss_prev_elderly_high": 0.7090080396764579
+   },
+   "Call-status rule": {
+    "intercepted": 0.7689625108979947,
+    "held": 0.35571054925893636,
+    "intercepted_elderly": 0.7914831130690162,
+    "intercepted_nonelderly": 0.7360515021459227,
+    "gen_any": 0.01952704226057767,
+    "gen_t2": 0.01355244369848944,
+    "gen_t3": 0.010940905333299932,
+    "hold_precision": 0.18932714617169374,
+    "int_active_scam": 0.8342318059299192,
+    "int_recent_scam": 0.6338797814207651,
+    "int_ott": 0.6436781609195402,
+    "int_unlinked": 0.7291666666666666,
+    "loss_prev_base": 0.7855205927421665,
+    "loss_prev_elderly_base": 0.7924095022941967,
+    "loss_prev_low": 0.6786366941075677,
+    "loss_prev_elderly_low": 0.6806499273201636,
+    "loss_prev_high": 0.854773682436699,
+    "loss_prev_elderly_high": 0.8664030544077498
+   },
+   "Call-status + risk": {
+    "intercepted": 0.7611159546643418,
+    "held": 0.34786399302528337,
+    "intercepted_elderly": 0.7797356828193832,
+    "intercepted_nonelderly": 0.7339055793991416,
+    "gen_any": 0.01608882988050803,
+    "gen_t2": 0.0101142313184198,
+    "gen_t3": 0.007502692953230292,
+    "hold_precision": 0.2498434564809017,
+    "int_active_scam": 0.8221024258760108,
+    "int_recent_scam": 0.6338797814207651,
+    "int_ott": 0.6436781609195402,
+    "int_unlinked": 0.7291666666666666,
+    "loss_prev_base": 0.7749097006844222,
+    "loss_prev_elderly_base": 0.7792779619890697,
+    "loss_prev_low": 0.6692047900562396,
+    "loss_prev_elderly_low": 0.6689774470489398,
+    "loss_prev_high": 0.843573296375747,
+    "loss_prev_elderly_high": 0.8525419840856712
+   },
+   "Mule risk feed": {
+    "intercepted": 0.7715780296425457,
+    "held": 0.24934612031386225,
+    "intercepted_elderly": 0.801762114537445,
+    "intercepted_nonelderly": 0.7274678111587983,
+    "gen_any": 0.009657055537463363,
+    "gen_t2": 0.0029058844159422833,
+    "gen_t3": 0.0,
+    "hold_precision": 1.0,
+    "int_active_scam": 0.7830188679245284,
+    "int_recent_scam": 0.7486338797814208,
+    "int_ott": 0.7413793103448276,
+    "int_unlinked": 0.7916666666666666,
+    "loss_prev_base": 0.6642487570161035,
+    "loss_prev_elderly_base": 0.6963713636914411,
+    "loss_prev_low": 0.5427027750048725,
+    "loss_prev_elderly_low": 0.5762482099737258,
+    "loss_prev_high": 0.7659055497571974,
+    "loss_prev_elderly_high": 0.7961712329639545
+   },
+   "ScamShield (full)": {
+    "intercepted": 0.9180470793374019,
+    "held": 0.6739319965126417,
+    "intercepted_elderly": 0.9383259911894273,
+    "intercepted_nonelderly": 0.8884120171673819,
+    "gen_any": 0.012512838497958366,
+    "gen_t2": 0.003150129011247777,
+    "gen_t3": 0.000338184824269145,
+    "hold_precision": 0.9347037484885127,
+    "int_active_scam": 0.9838274932614556,
+    "int_recent_scam": 0.9562841530054644,
+    "int_ott": 0.6551724137931034,
+    "int_unlinked": 0.7083333333333334,
+    "loss_prev_base": 0.8794306414913097,
+    "loss_prev_elderly_base": 0.890443765103981,
+    "loss_prev_low": 0.8011488262291399,
+    "loss_prev_elderly_low": 0.814494902327985,
+    "loss_prev_high": 0.924886217219924,
+    "loss_prev_elderly_high": 0.9341760760105469
+   },
+   "ScamShield (message)": {
+    "intercepted": 0.9075850043591979,
+    "held": 0.5893635571054926,
+    "intercepted_elderly": 0.9177679882525698,
+    "intercepted_nonelderly": 0.8927038626609443,
+    "gen_any": 0.013658909291314913,
+    "gen_t2": 0.003031138054560485,
+    "gen_t3": 0.00036949823392369547,
+    "hold_precision": 0.9197278911564626,
+    "int_active_scam": 0.9703504043126685,
+    "int_recent_scam": 0.9289617486338798,
+    "int_ott": 0.6724137931034483,
+    "int_unlinked": 0.7083333333333334,
+    "loss_prev_base": 0.8629545360314295,
+    "loss_prev_elderly_base": 0.8668127538118817,
+    "loss_prev_low": 0.7802312263997997,
+    "loss_prev_elderly_low": 0.7865201434680725,
+    "loss_prev_high": 0.9136788089180329,
+    "loss_prev_elderly_high": 0.9155265542917412
+   },
+   "ScamShield (metadata)": {
+    "intercepted": 0.8840453356582388,
+    "held": 0.4350479511769834,
+    "intercepted_elderly": 0.9016152716593245,
+    "intercepted_nonelderly": 0.8583690987124464,
+    "gen_any": 0.014923971041358751,
+    "gen_t2": 0.0033254841053132595,
+    "gen_t3": 0.0004947518725418973,
+    "hold_precision": 0.8633217993079585,
+    "int_active_scam": 0.9460916442048517,
+    "int_recent_scam": 0.8907103825136612,
+    "int_ott": 0.6551724137931034,
+    "int_unlinked": 0.7291666666666666,
+    "loss_prev_base": 0.8139658612019449,
+    "loss_prev_elderly_base": 0.8139790270565322,
+    "loss_prev_low": 0.7125306304022334,
+    "loss_prev_elderly_low": 0.7122425619419237,
+    "loss_prev_high": 0.8829546413662441,
+    "loss_prev_elderly_high": 0.8844727545720311
+   },
+   "Metadata, 75% of scam flags": {
+    "intercepted": 0.8526591107236269,
+    "held": 0.3905841325196164,
+    "intercepted_elderly": 0.869309838472834,
+    "intercepted_nonelderly": 0.8283261802575107,
+    "gen_any": 0.015118114181216964,
+    "gen_t2": 0.0033380094691750797,
+    "gen_t3": 0.0004947518725418973,
+    "hold_precision": 0.8500948766603416,
+    "int_active_scam": 0.9002695417789758,
+    "int_recent_scam": 0.8360655737704918,
+    "int_ott": 0.7011494252873564,
+    "int_unlinked": 0.7291666666666666,
+    "loss_prev_base": 0.778204276232578,
+    "loss_prev_elderly_base": 0.7904857451220073,
+    "loss_prev_low": 0.671248810036783,
+    "loss_prev_elderly_low": 0.6856441156920816,
+    "loss_prev_high": 0.8558776400132219,
+    "loss_prev_elderly_high": 0.8651574154336988
+   },
+   "Metadata, 50% of scam flags": {
+    "intercepted": 0.8177855274629469,
+    "held": 0.34263295553618134,
+    "intercepted_elderly": 0.8355359765051396,
+    "intercepted_nonelderly": 0.7918454935622318,
+    "gen_any": 0.016032465743129838,
+    "gen_t2": 0.0036636689295824042,
+    "gen_t3": 0.0004947518725418973,
+    "hold_precision": 0.8326271186440678,
+    "int_active_scam": 0.8504043126684636,
+    "int_recent_scam": 0.7868852459016393,
+    "int_ott": 0.7241379310344828,
+    "int_unlinked": 0.7708333333333334,
+    "loss_prev_base": 0.7362270774729214,
+    "loss_prev_elderly_base": 0.7484651547807546,
+    "loss_prev_low": 0.6289479140729974,
+    "loss_prev_elderly_low": 0.6450837344827283,
+    "loss_prev_high": 0.8157101470754128,
+    "loss_prev_elderly_high": 0.8234889604073485
+   },
+   "Full, exact raw match": {
+    "intercepted": 0.911944202266783,
+    "held": 0.5989537925021796,
+    "intercepted_elderly": 0.933920704845815,
+    "intercepted_nonelderly": 0.8798283261802575,
+    "gen_any": 0.011867782259074627,
+    "gen_t2": 0.0029497231894586536,
+    "gen_t3": 0.00030060873268368445,
+    "hold_precision": 0.9346938775510204,
+    "int_active_scam": 0.9824797843665768,
+    "int_recent_scam": 0.9344262295081968,
+    "int_ott": 0.6379310344827587,
+    "int_unlinked": 0.7291666666666666,
+    "loss_prev_base": 0.8709556221604571,
+    "loss_prev_elderly_base": 0.8820992923193732,
+    "loss_prev_low": 0.7862366942150898,
+    "loss_prev_elderly_low": 0.7988660480546952,
+    "loss_prev_high": 0.9215283516508815,
+    "loss_prev_elderly_high": 0.9320749187382266
+   },
+   "Full, canonical, no expansion": {
+    "intercepted": 0.9180470793374019,
+    "held": 0.6643417611159547,
+    "intercepted_elderly": 0.9383259911894273,
+    "intercepted_nonelderly": 0.8884120171673819,
+    "gen_any": 0.012368796813547434,
+    "gen_t2": 0.003156391693178687,
+    "gen_t3": 0.0003319221423382349,
+    "hold_precision": 0.9349693251533743,
+    "int_active_scam": 0.9851752021563343,
+    "int_recent_scam": 0.9453551912568307,
+    "int_ott": 0.6551724137931034,
+    "int_unlinked": 0.7291666666666666,
+    "loss_prev_base": 0.8767920819841775,
+    "loss_prev_elderly_base": 0.8879484054775615,
+    "loss_prev_low": 0.7981370571591483,
+    "loss_prev_elderly_low": 0.8115199590466773,
+    "loss_prev_high": 0.922775512036979,
+    "loss_prev_elderly_high": 0.9321693955548501
+   },
+   "Full, no active-call rule": {
+    "intercepted": 0.9145597210113339,
+    "held": 0.5492589363557105,
+    "intercepted_elderly": 0.9353891336270191,
+    "intercepted_nonelderly": 0.8841201716738197,
+    "gen_any": 0.010233222275107092,
+    "gen_t2": 0.0029434605075277435,
+    "gen_t3": 4.383877351637065e-05,
+    "hold_precision": 0.989010989010989,
+    "int_active_scam": 0.9797843665768194,
+    "int_recent_scam": 0.9508196721311475,
+    "int_ott": 0.6551724137931034,
+    "int_unlinked": 0.7083333333333334,
+    "loss_prev_base": 0.8375797370551192,
+    "loss_prev_elderly_base": 0.8532803688630521,
+    "loss_prev_low": 0.7405689970888241,
+    "loss_prev_elderly_low": 0.760726045556214,
+    "loss_prev_high": 0.9049476510521861,
+    "loss_prev_elderly_high": 0.9164882890354326
+   }
+  },
+  "friction": {
+   "f_hat": 0.017311374952125622,
+   "q_call": 0.07610411082441945,
+   "q_new": 0.07109396527969138,
+   "q_call_and_new": 0.010940905333299932,
+   "predicted": 0.00018940211454046606,
+   "measured": 0.00029434605075277434,
+   "callstatus_measured": 0.010940905333299932
+  },
+  "benef": {
+   "raw": {
+    "exact": 0.5425742574257426,
+    "any": 0.5425742574257426
+   },
+   "canon": {
+    "exact": 0.8871287128712871,
+    "any": 0.8871287128712871
+   },
+   "exp": {
+    "exact": 0.8871287128712871,
+    "any": 0.9881188118811881
+   },
+   "n": 505,
+   "genuine_variant_matches": 2,
+   "genuine_exact_matches": 7,
+   "genuine_n": 159676
+  },
+  "meta": {
+   "flags": {
+    "meta": {
+     "scam_any": 0.8045313194135939,
+     "scam_high": 0.7059084851177254,
+     "benign_any": 0.0666646162363326,
+     "benign_high": 0.03936826241407415
+    },
+    "msg": {
+     "scam_any": 0.9009329187027988,
+     "scam_high": 0.8551754775655265,
+     "benign_any": 0.05133252341335138,
+     "benign_high": 0.02924169960170391
+    },
+    "full": {
+     "scam_any": 0.9493558418480675,
+     "scam_high": 0.9253665037760995,
+     "benign_any": 0.03319390407061682,
+     "benign_high": 0.0175004229012564
+    }
+   },
+   "cs_sweep": {
+    "0.02": {
+     "intercepted": 0.7236268526591108,
+     "held": 0.31037489102005233,
+     "gen_t3": 0.00201032089982214,
+     "loss_prev_base": 0.7232633585331532,
+     "intercepted_elderly": 0.7562408223201175
+    },
+    "0.05": {
+     "intercepted": 0.7471665213600698,
+     "held": 0.33391455972101136,
+     "gen_t3": 0.004534181717978907,
+     "loss_prev_base": 0.7635759902362331,
+     "intercepted_elderly": 0.7709251101321586
+    },
+    "0.1": {
+     "intercepted": 0.7611159546643418,
+     "held": 0.34786399302528337,
+     "gen_t3": 0.007502692953230292,
+     "loss_prev_base": 0.7749097006844222,
+     "intercepted_elderly": 0.7797356828193832
+    },
+    "0.2": {
+     "intercepted": 0.7672188317349607,
+     "held": 0.35396687009590233,
+     "gen_t3": 0.009794834539943386,
+     "loss_prev_base": 0.7783320592748953,
+     "intercepted_elderly": 0.7900146842878121
+    },
+    "0.5": {
+     "intercepted": 0.7689625108979947,
+     "held": 0.35571054925893636,
+     "gen_t3": 0.010734236829579899,
+     "loss_prev_base": 0.7855205927421665,
+     "intercepted_elderly": 0.7914831130690162
+    }
+   },
+   "n_test": 160823,
+   "n_scam_test": 1147,
+   "n_genuine_test": 159676,
+   "tiers_full": {
+    "0": {
+     "0": 157678,
+     "1": 1495,
+     "2": 449,
+     "3": 54
+    },
+    "1": {
+     "0": 94,
+     "1": 44,
+     "2": 236,
+     "3": 773
+    }
+   },
+   "n_payments": 400422,
+   "n_scam": 2803,
+   "share_elderly_scam": 0.5840171245094542,
+   "ctx_scam": {
+    "active_scam": 0.6350338922582947,
+    "recent_scam": 0.16803424901890832,
+    "ott": 0.1537638244737781,
+    "unlinked": 0.04316803424901891
+   },
+   "mule_hit_scam": 0.25722440242597217
+  },
+  "telco": {
+   "sms_eval": {
+    "uci_real_test": {
+     "precision": 0.9952153110047847,
+     "recall": 0.9285714285714286,
+     "f1": 0.9607390300230947,
+     "accuracy": 0.9898386132695756,
+     "auc": 0.9953662624470079,
+     "n": 1673
+    },
+    "synthetic_scam_test": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "accuracy": 1.0,
+     "auc": 1.0,
+     "n": 1500
+    },
+    "uci_scamlike": {
+     "n": 122,
+     "share_of_test": 0.07292289300657502,
+     "share_of_spam": 0.5446428571428571,
+     "recall": 0.9754098360655737
+    }
+   },
+   "call_eval": {
+    "precision": 1.0,
+    "recall": 0.9905555555555555,
+    "f1": 0.9952553725927993,
+    "accuracy": 0.9952777777777778,
+    "auc": 0.9999987654320988,
+    "n": 3600
+   },
+   "call_loso": {
+    "bank_impersonation": {
+     "precision": 1.0,
+     "recall": 0.8013245033112583,
+     "f1": 0.8897058823529411,
+     "accuracy": 0.9006622516556292,
+     "auc": 0.9989814267007623
+    },
+    "authority_impersonation": {
+     "precision": 1.0,
+     "recall": 0.8886532343584306,
+     "f1": 0.9410443571027512,
+     "accuracy": 0.9443266171792153,
+     "auc": 0.9995569294989368
+    },
+    "family_emergency": {
+     "precision": 1.0,
+     "recall": 0.6609029779058597,
+     "f1": 0.7958357432041643,
+     "accuracy": 0.8304514889529299,
+     "auc": 0.9954516135283353
+    },
+    "prize_refund": {
+     "precision": 0.9988290398126464,
+     "recall": 0.8913270637408568,
+     "f1": 0.9420209828823854,
+     "accuracy": 0.945141065830721,
+     "auc": 0.9996593324882158
+    },
+    "tech_support": {
+     "precision": 1.0,
+     "recall": 0.8309572301425662,
+     "f1": 0.9076751946607341,
+     "accuracy": 0.9154786150712831,
+     "auc": 0.9996111265508273
+    },
+    "investment": {
+     "precision": 1.0,
+     "recall": 0.8431372549019608,
+     "f1": 0.9148936170212766,
+     "accuracy": 0.9215686274509803,
+     "auc": 0.9980401768550557
+    }
+   },
+   "rep_eval": {
+    "precision": 0.7746160794941283,
+    "recall": 0.7145833333333333,
+    "f1": 0.7433896835717382,
+    "accuracy": 0.9177777777777778,
+    "auc": 0.9562838888888889
+   },
+   "fusion_eval": {
+    "precision": 0.989247311827957,
+    "recall": 0.92,
+    "f1": 0.9533678756476683,
+    "accuracy": 0.955,
+    "auc": 0.9937864197530863,
+    "tau": 0.6856211622713149,
+    "false_flag_rate": 0.01,
+    "recall_with_transcript": 0.9949109414758269,
+    "recall_metadata_only": 0.7071129707112971
+   }
+  },
+  "latency": {
+   "bank_decision_ms": 1.5838806669999883,
+   "oprf_ms": 28.716538549999626,
+   "telco_scoring_ms": 3.7088275000000217
+  }
+ },
+ "2": {
+  "results": {
+   "Bank ML": {
+    "intercepted": 0.7023809523809523,
+    "held": 0.0,
+    "intercepted_elderly": 0.7339130434782609,
+    "intercepted_nonelderly": 0.6673114119922631,
+    "gen_any": 0.009586973483927909,
+    "gen_t2": 0.002890801877742105,
+    "gen_t3": 0.0,
+    "hold_precision": 0.0,
+    "int_active_scam": 0.6986111111111111,
+    "int_recent_scam": 0.7125748502994012,
+    "int_ott": 0.678082191780822,
+    "int_unlinked": 0.7796610169491526,
+    "loss_prev_base": 0.5216880426389574,
+    "loss_prev_elderly_base": 0.5432834488879568,
+    "loss_prev_low": 0.36703162642395504,
+    "loss_prev_elderly_low": 0.37977334326378087,
+    "loss_prev_high": 0.6594829202438373,
+    "loss_prev_elderly_high": 0.6898221696259643
+   },
+   "Call-status rule": {
+    "intercepted": 0.7774725274725275,
+    "held": 0.36813186813186816,
+    "intercepted_elderly": 0.8052173913043478,
+    "intercepted_nonelderly": 0.746615087040619,
+    "gen_any": 0.019691988897274203,
+    "gen_t2": 0.013724913339899461,
+    "gen_t3": 0.011134703692807531,
+    "hold_precision": 0.18758749416705553,
+    "int_active_scam": 0.8125,
+    "int_recent_scam": 0.7125748502994012,
+    "int_ott": 0.678082191780822,
+    "int_unlinked": 0.7796610169491526,
+    "loss_prev_base": 0.7681173283175593,
+    "loss_prev_elderly_base": 0.7550236559943189,
+    "loss_prev_low": 0.6548968755375179,
+    "loss_prev_elderly_low": 0.6469057245100625,
+    "loss_prev_high": 0.8450611688104153,
+    "loss_prev_elderly_high": 0.8277214307515647
+   },
+   "Call-status + risk": {
+    "intercepted": 0.7728937728937729,
+    "held": 0.36355311355311354,
+    "intercepted_elderly": 0.8034782608695652,
+    "intercepted_nonelderly": 0.7388781431334622,
+    "gen_any": 0.015330203763158905,
+    "gen_t2": 0.009363128205784162,
+    "gen_t3": 0.0067729185586922315,
+    "hold_precision": 0.27266483516483514,
+    "int_active_scam": 0.8055555555555556,
+    "int_recent_scam": 0.7125748502994012,
+    "int_ott": 0.678082191780822,
+    "int_unlinked": 0.7796610169491526,
+    "loss_prev_base": 0.7445218232807229,
+    "loss_prev_elderly_base": 0.754882296278339,
+    "loss_prev_low": 0.6339230932825521,
+    "loss_prev_elderly_low": 0.6467800714291916,
+    "loss_prev_high": 0.8201548023826435,
+    "loss_prev_elderly_high": 0.8275722177180305
+   },
+   "Mule risk feed": {
+    "intercepted": 0.7673992673992674,
+    "held": 0.2518315018315018,
+    "intercepted_elderly": 0.7913043478260869,
+    "intercepted_nonelderly": 0.7408123791102514,
+    "gen_any": 0.009586973483927909,
+    "gen_t2": 0.002890801877742105,
+    "gen_t3": 0.0,
+    "hold_precision": 1.0,
+    "int_active_scam": 0.775,
+    "int_recent_scam": 0.7844311377245509,
+    "int_ott": 0.6986301369863014,
+    "int_unlinked": 0.7966101694915254,
+    "loss_prev_base": 0.6121196465911247,
+    "loss_prev_elderly_base": 0.6160541342693118,
+    "loss_prev_low": 0.4747660428529269,
+    "loss_prev_elderly_low": 0.47206531278931485,
+    "loss_prev_high": 0.7287849199284702,
+    "loss_prev_elderly_high": 0.7394627209415914
+   },
+   "ScamShield (full)": {
+    "intercepted": 0.9184981684981685,
+    "held": 0.6410256410256411,
+    "intercepted_elderly": 0.9391304347826087,
+    "intercepted_nonelderly": 0.8955512572533849,
+    "gen_any": 0.011460878240959848,
+    "gen_t2": 0.0029675488302485322,
+    "gen_t3": 9.593369063303445e-05,
+    "hold_precision": 0.9790209790209791,
+    "int_active_scam": 0.9777777777777777,
+    "int_recent_scam": 0.9700598802395209,
+    "int_ott": 0.636986301369863,
+    "int_unlinked": 0.7457627118644068,
+    "loss_prev_base": 0.8433027945403696,
+    "loss_prev_elderly_base": 0.8480680453565657,
+    "loss_prev_low": 0.7436362336931279,
+    "loss_prev_elderly_low": 0.7513548757942856,
+    "loss_prev_high": 0.9108848118346525,
+    "loss_prev_elderly_high": 0.9114388083554806
+   },
+   "ScamShield (message)": {
+    "intercepted": 0.9084249084249084,
+    "held": 0.5604395604395604,
+    "intercepted_elderly": 0.9339130434782609,
+    "intercepted_nonelderly": 0.8800773694390716,
+    "gen_any": 0.012464984202918942,
+    "gen_t2": 0.003063482520881567,
+    "gen_t3": 0.00013430716688624822,
+    "hold_precision": 0.966824644549763,
+    "int_active_scam": 0.9680555555555556,
+    "int_recent_scam": 0.9520958083832335,
+    "int_ott": 0.636986301369863,
+    "int_unlinked": 0.7288135593220338,
+    "loss_prev_base": 0.8146099297510186,
+    "loss_prev_elderly_base": 0.80504493273415,
+    "loss_prev_low": 0.7046873553496917,
+    "loss_prev_elderly_low": 0.6898138464702984,
+    "loss_prev_high": 0.892366434045868,
+    "loss_prev_elderly_high": 0.887275687764227
+   },
+   "ScamShield (metadata)": {
+    "intercepted": 0.8809523809523809,
+    "held": 0.4166666666666667,
+    "intercepted_elderly": 0.8973913043478261,
+    "intercepted_nonelderly": 0.8626692456479691,
+    "gen_any": 0.013724913339899461,
+    "gen_t2": 0.0031338338940124586,
+    "gen_t3": 0.0001918673812660689,
+    "hold_precision": 0.9381443298969072,
+    "int_active_scam": 0.9291666666666667,
+    "int_recent_scam": 0.9041916167664671,
+    "int_ott": 0.6575342465753424,
+    "int_unlinked": 0.7796610169491526,
+    "loss_prev_base": 0.7633705511557556,
+    "loss_prev_elderly_base": 0.7375195196887254,
+    "loss_prev_low": 0.6386200782687672,
+    "loss_prev_elderly_low": 0.6165059626792723,
+    "loss_prev_high": 0.8551651246589954,
+    "loss_prev_elderly_high": 0.8278805182762796
+   },
+   "Metadata, 75% of scam flags": {
+    "intercepted": 0.8498168498168498,
+    "held": 0.38461538461538464,
+    "intercepted_elderly": 0.8695652173913043,
+    "intercepted_nonelderly": 0.8278529980657641,
+    "gen_any": 0.014485987285588201,
+    "gen_t2": 0.0031018559971347803,
+    "gen_t3": 0.0001918673812660689,
+    "hold_precision": 0.9333333333333333,
+    "int_active_scam": 0.8916666666666667,
+    "int_recent_scam": 0.8502994011976048,
+    "int_ott": 0.684931506849315,
+    "int_unlinked": 0.7457627118644068,
+    "loss_prev_base": 0.7381677913067768,
+    "loss_prev_elderly_base": 0.7144987838510284,
+    "loss_prev_low": 0.6115178802027303,
+    "loss_prev_elderly_low": 0.593205764910985,
+    "loss_prev_high": 0.8324845602647644,
+    "loss_prev_elderly_high": 0.8074738270618397
+   },
+   "Metadata, 50% of scam flags": {
+    "intercepted": 0.815018315018315,
+    "held": 0.32142857142857145,
+    "intercepted_elderly": 0.8486956521739131,
+    "intercepted_nonelderly": 0.7775628626692457,
+    "gen_any": 0.014856930889369268,
+    "gen_t2": 0.0034472172834137046,
+    "gen_t3": 0.0001918673812660689,
+    "hold_precision": 0.9212598425196851,
+    "int_active_scam": 0.8416666666666667,
+    "int_recent_scam": 0.8383233532934131,
+    "int_ott": 0.684931506849315,
+    "int_unlinked": 0.7457627118644068,
+    "loss_prev_base": 0.6724159513850196,
+    "loss_prev_elderly_base": 0.683513752933289,
+    "loss_prev_low": 0.5440396923552806,
+    "loss_prev_elderly_low": 0.5514451950798136,
+    "loss_prev_high": 0.7738830599790574,
+    "loss_prev_elderly_high": 0.7886531329797091
+   },
+   "Full, exact raw match": {
+    "intercepted": 0.9221611721611722,
+    "held": 0.5723443223443223,
+    "intercepted_elderly": 0.9443478260869566,
+    "intercepted_nonelderly": 0.8974854932301741,
+    "gen_any": 0.011812635106614308,
+    "gen_t2": 0.002935570933370854,
+    "gen_t3": 9.593369063303445e-05,
+    "hold_precision": 0.9765625,
+    "int_active_scam": 0.9791666666666666,
+    "int_recent_scam": 0.9700598802395209,
+    "int_ott": 0.6575342465753424,
+    "int_unlinked": 0.7457627118644068,
+    "loss_prev_base": 0.8435711607603089,
+    "loss_prev_elderly_base": 0.8436645552660803,
+    "loss_prev_low": 0.7353066599200302,
+    "loss_prev_elderly_low": 0.7355746189733279,
+    "loss_prev_high": 0.9164030783442741,
+    "loss_prev_elderly_high": 0.9160350176629547
+   },
+   "Full, canonical, no expansion": {
+    "intercepted": 0.9184981684981685,
+    "held": 0.63003663003663,
+    "intercepted_elderly": 0.9408695652173913,
+    "intercepted_nonelderly": 0.8936170212765957,
+    "gen_any": 0.011339362232824671,
+    "gen_t2": 0.0026861433377249645,
+    "gen_t3": 9.593369063303445e-05,
+    "hold_precision": 0.9786628733997155,
+    "int_active_scam": 0.9777777777777777,
+    "int_recent_scam": 0.9700598802395209,
+    "int_ott": 0.636986301369863,
+    "int_unlinked": 0.7457627118644068,
+    "loss_prev_base": 0.8437463813590228,
+    "loss_prev_elderly_base": 0.8458239035653645,
+    "loss_prev_low": 0.7432985298463127,
+    "loss_prev_elderly_low": 0.7478971178254246,
+    "loss_prev_high": 0.9116221485046602,
+    "loss_prev_elderly_high": 0.9106215664083925
+   },
+   "Full, no active-call rule": {
+    "intercepted": 0.9175824175824175,
+    "held": 0.5265567765567766,
+    "intercepted_elderly": 0.9373913043478261,
+    "intercepted_nonelderly": 0.8955512572533849,
+    "gen_any": 0.0097468629683163,
+    "gen_t2": 0.0028396372427378198,
+    "gen_t3": 6.395579375535629e-06,
+    "hold_precision": 0.9982638888888888,
+    "int_active_scam": 0.9777777777777777,
+    "int_recent_scam": 0.9640718562874252,
+    "int_ott": 0.636986301369863,
+    "int_unlinked": 0.7457627118644068,
+    "loss_prev_base": 0.800408496372496,
+    "loss_prev_elderly_base": 0.8090566779230367,
+    "loss_prev_low": 0.6840718717753269,
+    "loss_prev_elderly_low": 0.6980253883055609,
+    "loss_prev_high": 0.8893162566670865,
+    "loss_prev_elderly_high": 0.891024079308424
+   }
+  },
+  "friction": {
+   "f_hat": 0.007088726574891809,
+   "q_call": 0.07535271620256079,
+   "q_new": 0.07048568029777817,
+   "q_call_and_new": 0.011134703692807531,
+   "predicted": 7.89308699707507e-05,
+   "measured": 8.953811125749881e-05,
+   "callstatus_measured": 0.011134703692807531
+  },
+  "benef": {
+   "raw": {
+    "exact": 0.5620767494356659,
+    "any": 0.5620767494356659
+   },
+   "canon": {
+    "exact": 0.9164785553047404,
+    "any": 0.9164785553047404
+   },
+   "exp": {
+    "exact": 0.9164785553047404,
+    "any": 0.9887133182844243
+   },
+   "n": 443,
+   "genuine_variant_matches": 1,
+   "genuine_exact_matches": 1,
+   "genuine_n": 156358
+  },
+  "meta": {
+   "flags": {
+    "meta": {
+     "scam_any": 0.7940639269406393,
+     "scam_high": 0.5694063926940639,
+     "benign_any": 0.06092458255090035,
+     "benign_high": 0.017500525950802173
+    },
+    "msg": {
+     "scam_any": 0.8986301369863013,
+     "scam_high": 0.7831050228310502,
+     "benign_any": 0.04576940758460016,
+     "benign_high": 0.012217642337870795
+    },
+    "full": {
+     "scam_any": 0.9410958904109589,
+     "scam_high": 0.869406392694064,
+     "benign_any": 0.02891560632387661,
+     "benign_high": 0.007184098364487802
+    }
+   },
+   "cs_sweep": {
+    "0.02": {
+     "intercepted": 0.7261904761904762,
+     "held": 0.31684981684981683,
+     "gen_t3": 0.0020273986620447946,
+     "loss_prev_base": 0.6704997665850421,
+     "intercepted_elderly": 0.76
+    },
+    "0.05": {
+     "intercepted": 0.7582417582417582,
+     "held": 0.3489010989010989,
+     "gen_t3": 0.004201895649726909,
+     "loss_prev_base": 0.7007301048316937,
+     "intercepted_elderly": 0.7965217391304348
+    },
+    "0.1": {
+     "intercepted": 0.7728937728937729,
+     "held": 0.36355311355311354,
+     "gen_t3": 0.0067729185586922315,
+     "loss_prev_base": 0.7445218232807229,
+     "intercepted_elderly": 0.8034782608695652
+    },
+    "0.2": {
+     "intercepted": 0.7765567765567766,
+     "held": 0.36721611721611724,
+     "gen_t3": 0.008992184602003095,
+     "loss_prev_base": 0.7680383295701987,
+     "intercepted_elderly": 0.8034782608695652
+    },
+    "0.5": {
+     "intercepted": 0.7774725274725275,
+     "held": 0.36813186813186816,
+     "gen_t3": 0.01081492472403075,
+     "loss_prev_base": 0.7681173283175593,
+     "intercepted_elderly": 0.8052173913043478
+    }
+   },
+   "n_test": 157450,
+   "n_scam_test": 1092,
+   "n_genuine_test": 156358,
+   "tiers_full": {
+    "0": {
+     "0": 154566,
+     "1": 1328,
+     "2": 449,
+     "3": 15
+    },
+    "1": {
+     "0": 89,
+     "1": 56,
+     "2": 247,
+     "3": 700
+    }
+   },
+   "n_payments": 397586,
+   "n_scam": 2737,
+   "share_elderly_scam": 0.5275849470222872,
+   "ctx_scam": {
+    "active_scam": 0.6423090975520643,
+    "recent_scam": 0.15783704786262331,
+    "ott": 0.14504932407745708,
+    "unlinked": 0.05480453050785532
+   },
+   "mule_hit_scam": 0.268176835951772
+  },
+  "telco": {
+   "sms_eval": {
+    "uci_real_test": {
+     "precision": 0.9905660377358491,
+     "recall": 0.9375,
+     "f1": 0.963302752293578,
+     "accuracy": 0.990436341900777,
+     "auc": 0.9930339889579021,
+     "n": 1673
+    },
+    "synthetic_scam_test": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "accuracy": 1.0,
+     "auc": 1.0,
+     "n": 1500
+    },
+    "uci_scamlike": {
+     "n": 124,
+     "share_of_test": 0.07411835026897788,
+     "share_of_spam": 0.5535714285714286,
+     "recall": 0.9758064516129032
+    }
+   },
+   "call_eval": {
+    "precision": 1.0,
+    "recall": 0.9922222222222222,
+    "f1": 0.9960959286112661,
+    "accuracy": 0.9961111111111111,
+    "auc": 0.9999956790123458,
+    "n": 3600
+   },
+   "call_loso": {
+    "bank_impersonation": {
+     "precision": 1.0,
+     "recall": 0.8331584470094439,
+     "f1": 0.9089868345735547,
+     "accuracy": 0.916579223504722,
+     "auc": 0.99943074776841
+    },
+    "authority_impersonation": {
+     "precision": 1.0,
+     "recall": 0.8839622641509434,
+     "f1": 0.9384076114171257,
+     "accuracy": 0.9419811320754717,
+     "auc": 0.9996511213955145
+    },
+    "family_emergency": {
+     "precision": 1.0,
+     "recall": 0.6599597585513078,
+     "f1": 0.7951515151515152,
+     "accuracy": 0.829979879275654,
+     "auc": 0.9980638357306818
+    },
+    "prize_refund": {
+     "precision": 1.0,
+     "recall": 0.8686131386861314,
+     "f1": 0.9296875,
+     "accuracy": 0.9343065693430657,
+     "auc": 0.9998292886337763
+    },
+    "tech_support": {
+     "precision": 1.0,
+     "recall": 0.8083889418493804,
+     "f1": 0.8940432261465472,
+     "accuracy": 0.9041944709246902,
+     "auc": 0.9991094155675977
+    },
+    "investment": {
+     "precision": 1.0,
+     "recall": 0.8436548223350254,
+     "f1": 0.9151982378854625,
+     "accuracy": 0.9218274111675127,
+     "auc": 0.9986065087995053
+    }
+   },
+   "rep_eval": {
+    "precision": 0.7868068833652008,
+    "recall": 0.6858333333333333,
+    "f1": 0.7328584149599288,
+    "accuracy": 0.9166666666666666,
+    "auc": 0.9537686631944444
+   },
+   "fusion_eval": {
+    "precision": 0.9885057471264368,
+    "recall": 0.86,
+    "f1": 0.9197860962566845,
+    "accuracy": 0.925,
+    "auc": 0.9934148148148148,
+    "tau": 0.8791773236226491,
+    "false_flag_rate": 0.01,
+    "recall_with_transcript": 0.9872773536895675,
+    "recall_metadata_only": 0.5437262357414449
+   }
+  },
+  "latency": {
+   "bank_decision_ms": 1.7461084374999984,
+   "oprf_ms": 28.815498974999798,
+   "telco_scoring_ms": 3.8495475000000092
+  }
+ },
+ "3": {
+  "results": {
+   "Bank ML": {
+    "intercepted": 0.6995594713656388,
+    "held": 0.0,
+    "intercepted_elderly": 0.6891679748822606,
+    "intercepted_nonelderly": 0.7128514056224899,
+    "gen_any": 0.009917834459118863,
+    "gen_t2": 0.0031001108982760357,
+    "gen_t3": 0.0,
+    "hold_precision": 0.0,
+    "int_active_scam": 0.6991404011461319,
+    "int_recent_scam": 0.6779661016949152,
+    "int_ott": 0.7171717171717171,
+    "int_unlinked": 0.7096774193548387,
+    "loss_prev_base": 0.5860561646098976,
+    "loss_prev_elderly_base": 0.5222930014584019,
+    "loss_prev_low": 0.438734454404034,
+    "loss_prev_elderly_low": 0.36463984548279016,
+    "loss_prev_high": 0.7159807377675962,
+    "loss_prev_elderly_high": 0.6679397904958265
+   },
+   "Call-status rule": {
+    "intercepted": 0.7779735682819383,
+    "held": 0.3251101321585903,
+    "intercepted_elderly": 0.7723704866562009,
+    "intercepted_nonelderly": 0.785140562248996,
+    "gen_any": 0.01970964815001512,
+    "gen_t2": 0.013553533622340961,
+    "gen_t3": 0.010881893336021776,
+    "hold_precision": 0.1760496183206107,
+    "int_active_scam": 0.826647564469914,
+    "int_recent_scam": 0.6779661016949152,
+    "int_ott": 0.7171717171717171,
+    "int_unlinked": 0.7096774193548387,
+    "loss_prev_base": 0.8205061106152198,
+    "loss_prev_elderly_base": 0.8222545898856186,
+    "loss_prev_low": 0.7146736633941022,
+    "loss_prev_elderly_low": 0.709945669218806,
+    "loss_prev_high": 0.8894900664742083,
+    "loss_prev_elderly_high": 0.8958457892139509
+   },
+   "Call-status + risk": {
+    "intercepted": 0.7709251101321586,
+    "held": 0.3180616740088106,
+    "intercepted_elderly": 0.7660910518053375,
+    "intercepted_nonelderly": 0.7771084337349398,
+    "gen_any": 0.015380834761568707,
+    "gen_t2": 0.009224720233894547,
+    "gen_t3": 0.00655307994757536,
+    "hold_precision": 0.25767309064953603,
+    "int_active_scam": 0.8151862464183381,
+    "int_recent_scam": 0.6779661016949152,
+    "int_ott": 0.7171717171717171,
+    "int_unlinked": 0.7096774193548387,
+    "loss_prev_base": 0.8159075985929006,
+    "loss_prev_elderly_base": 0.8171979940948073,
+    "loss_prev_low": 0.7105860971520406,
+    "loss_prev_elderly_low": 0.7054509174047515,
+    "loss_prev_high": 0.8846360815617602,
+    "loss_prev_elderly_high": 0.8905082714347612
+   },
+   "Mule risk feed": {
+    "intercepted": 0.7814977973568282,
+    "held": 0.2643171806167401,
+    "intercepted_elderly": 0.7723704866562009,
+    "intercepted_nonelderly": 0.7931726907630522,
+    "gen_any": 0.009917834459118863,
+    "gen_t2": 0.0031001108982760357,
+    "gen_t3": 0.0,
+    "hold_precision": 1.0,
+    "int_active_scam": 0.7793696275071633,
+    "int_recent_scam": 0.768361581920904,
+    "int_ott": 0.7929292929292929,
+    "int_unlinked": 0.8064516129032258,
+    "loss_prev_base": 0.6876449273707923,
+    "loss_prev_elderly_base": 0.6520531421782394,
+    "loss_prev_low": 0.5668703370920898,
+    "loss_prev_elderly_low": 0.5234904894216628,
+    "loss_prev_high": 0.7866140481587527,
+    "loss_prev_elderly_high": 0.7564170392669486
+   },
+   "ScamShield (full)": {
+    "intercepted": 0.9295154185022027,
+    "held": 0.6590308370044052,
+    "intercepted_elderly": 0.9372056514913658,
+    "intercepted_nonelderly": 0.9196787148594378,
+    "gen_any": 0.012595775783849178,
+    "gen_t2": 0.003471872164532715,
+    "gen_t3": 0.00019533219074503478,
+    "hold_precision": 0.9602053915275995,
+    "int_active_scam": 0.9928366762177651,
+    "int_recent_scam": 0.9887005649717514,
+    "int_ott": 0.7272727272727273,
+    "int_unlinked": 0.6935483870967742,
+    "loss_prev_base": 0.8838528257784997,
+    "loss_prev_elderly_base": 0.895386516586567,
+    "loss_prev_low": 0.8059914719968467,
+    "loss_prev_elderly_low": 0.8156707218237744,
+    "loss_prev_high": 0.9310525254618717,
+    "loss_prev_elderly_high": 0.9395411800713316
+   },
+   "ScamShield (message)": {
+    "intercepted": 0.9154185022026432,
+    "held": 0.5814977973568282,
+    "intercepted_elderly": 0.9167974882260597,
+    "intercepted_nonelderly": 0.9136546184738956,
+    "gen_any": 0.013723661659441475,
+    "gen_t2": 0.0033521524347212422,
+    "gen_t3": 0.00023943945962294586,
+    "hold_precision": 0.9455587392550143,
+    "int_active_scam": 0.9770773638968482,
+    "int_recent_scam": 0.9661016949152542,
+    "int_ott": 0.7272727272727273,
+    "int_unlinked": 0.6774193548387096,
+    "loss_prev_base": 0.8661679117708183,
+    "loss_prev_elderly_base": 0.8716632387352234,
+    "loss_prev_low": 0.7827182739656748,
+    "loss_prev_elderly_low": 0.7829561361213506,
+    "loss_prev_high": 0.9193993577038965,
+    "loss_prev_elderly_high": 0.9255063996774198
+   },
+   "ScamShield (metadata)": {
+    "intercepted": 0.8907488986784141,
+    "held": 0.426431718061674,
+    "intercepted_elderly": 0.8854003139717426,
+    "intercepted_nonelderly": 0.8975903614457831,
+    "gen_any": 0.014820042342978124,
+    "gen_t2": 0.0032576368585542897,
+    "gen_t3": 0.0003213529589676379,
+    "hold_precision": 0.9046728971962616,
+    "int_active_scam": 0.9484240687679083,
+    "int_recent_scam": 0.9209039548022598,
+    "int_ott": 0.7070707070707071,
+    "int_unlinked": 0.7419354838709677,
+    "loss_prev_base": 0.8260615041812698,
+    "loss_prev_elderly_base": 0.8229298197978797,
+    "loss_prev_low": 0.7207395036053694,
+    "loss_prev_elderly_low": 0.7095065735413829,
+    "loss_prev_high": 0.8985610319645808,
+    "loss_prev_elderly_high": 0.8990640234172149
+   },
+   "Metadata, 75% of scam flags": {
+    "intercepted": 0.8555066079295154,
+    "held": 0.38854625550660793,
+    "intercepted_elderly": 0.8492935635792779,
+    "intercepted_nonelderly": 0.8634538152610441,
+    "gen_any": 0.015166599455590282,
+    "gen_t2": 0.003503377356588366,
+    "gen_t3": 0.0003213529589676379,
+    "hold_precision": 0.8963414634146342,
+    "int_active_scam": 0.9025787965616046,
+    "int_recent_scam": 0.8248587570621468,
+    "int_ott": 0.7474747474747475,
+    "int_unlinked": 0.7580645161290323,
+    "loss_prev_base": 0.792204786967439,
+    "loss_prev_elderly_base": 0.7852213898010786,
+    "loss_prev_low": 0.6821008964465745,
+    "loss_prev_elderly_low": 0.6693097865526646,
+    "loss_prev_high": 0.8711776676795538,
+    "loss_prev_elderly_high": 0.8645175474850166
+   },
+   "Metadata, 50% of scam flags": {
+    "intercepted": 0.8299559471365638,
+    "held": 0.3409691629955947,
+    "intercepted_elderly": 0.8320251177394035,
+    "intercepted_nonelderly": 0.8273092369477911,
+    "gen_any": 0.01514139530194576,
+    "gen_t2": 0.0034088617804214133,
+    "gen_t3": 0.0003213529589676379,
+    "hold_precision": 0.8835616438356164,
+    "int_active_scam": 0.8595988538681948,
+    "int_recent_scam": 0.7966101694915254,
+    "int_ott": 0.7828282828282829,
+    "int_unlinked": 0.7419354838709677,
+    "loss_prev_base": 0.7640287719178033,
+    "loss_prev_elderly_base": 0.7610362282783564,
+    "loss_prev_low": 0.648392700867158,
+    "loss_prev_elderly_low": 0.6356860073599311,
+    "loss_prev_high": 0.8526186545950132,
+    "loss_prev_elderly_high": 0.8545319433872777
+   },
+   "Full, exact raw match": {
+    "intercepted": 0.9259911894273127,
+    "held": 0.5982378854625551,
+    "intercepted_elderly": 0.9309262166405023,
+    "intercepted_nonelderly": 0.9196787148594378,
+    "gen_any": 0.01228072386329267,
+    "gen_t2": 0.003434065934065934,
+    "gen_t3": 0.000163826998689384,
+    "hold_precision": 0.9631205673758865,
+    "int_active_scam": 0.9928366762177651,
+    "int_recent_scam": 0.9717514124293786,
+    "int_ott": 0.7121212121212122,
+    "int_unlinked": 0.7258064516129032,
+    "loss_prev_base": 0.8774417207631378,
+    "loss_prev_elderly_base": 0.888875643830995,
+    "loss_prev_low": 0.7946543117438589,
+    "loss_prev_elderly_low": 0.8031473610681329,
+    "loss_prev_high": 0.9281823675379711,
+    "loss_prev_elderly_high": 0.9374149706029751
+   },
+   "Full, canonical, no expansion": {
+    "intercepted": 0.9295154185022027,
+    "held": 0.6519823788546255,
+    "intercepted_elderly": 0.9372056514913658,
+    "intercepted_nonelderly": 0.9196787148594378,
+    "gen_any": 0.01261467889908257,
+    "gen_t2": 0.003635699163222099,
+    "gen_t3": 0.00018903115233390462,
+    "hold_precision": 0.961038961038961,
+    "int_active_scam": 0.9928366762177651,
+    "int_recent_scam": 0.9887005649717514,
+    "int_ott": 0.7171717171717171,
+    "int_unlinked": 0.7258064516129032,
+    "loss_prev_base": 0.8827357179343074,
+    "loss_prev_elderly_base": 0.8952526104790959,
+    "loss_prev_low": 0.8049192151960836,
+    "loss_prev_elderly_low": 0.8149161931773794,
+    "loss_prev_high": 0.9297911355678489,
+    "loss_prev_elderly_high": 0.9398240568085588
+   },
+   "Full, no active-call rule": {
+    "intercepted": 0.9268722466960353,
+    "held": 0.5480176211453744,
+    "intercepted_elderly": 0.9356357927786499,
+    "intercepted_nonelderly": 0.9156626506024096,
+    "gen_any": 0.010415616493598146,
+    "gen_t2": 0.0033710555499546326,
+    "gen_t3": 3.150519205565077e-05,
+    "hold_precision": 0.9920255183413078,
+    "int_active_scam": 0.9914040114613181,
+    "int_recent_scam": 0.9774011299435028,
+    "int_ott": 0.7272727272727273,
+    "int_unlinked": 0.6935483870967742,
+    "loss_prev_base": 0.8492544542584715,
+    "loss_prev_elderly_base": 0.859964149338096,
+    "loss_prev_low": 0.754735902798913,
+    "loss_prev_elderly_low": 0.7631870506685027,
+    "loss_prev_high": 0.9139927104510939,
+    "loss_prev_elderly_high": 0.9225201741040715
+   }
+  },
+  "friction": {
+   "f_hat": 0.014776226349323159,
+   "q_call": 0.07507057163020465,
+   "q_new": 0.07137816312128238,
+   "q_call_and_new": 0.010881893336021776,
+   "predicted": 0.00016079331904224906,
+   "measured": 0.00015752596027825385,
+   "callstatus_measured": 0.010881893336021776
+  },
+  "benef": {
+   "raw": {
+    "exact": 0.6172566371681416,
+    "any": 0.6172566371681416
+   },
+   "canon": {
+    "exact": 0.9070796460176991,
+    "any": 0.9070796460176991
+   },
+   "exp": {
+    "exact": 0.9070796460176991,
+    "any": 0.9800884955752213
+   },
+   "n": 452,
+   "genuine_variant_matches": 1,
+   "genuine_exact_matches": 5,
+   "genuine_n": 158704
+  },
+  "meta": {
+   "flags": {
+    "meta": {
+     "scam_any": 0.8117924528301886,
+     "scam_high": 0.6839622641509434,
+     "benign_any": 0.0700453976205385,
+     "benign_high": 0.03331246086412023
+    },
+    "msg": {
+     "scam_any": 0.9117924528301887,
+     "scam_high": 0.8462264150943396,
+     "benign_any": 0.05427363807138384,
+     "benign_high": 0.023403256105197244
+    },
+    "full": {
+     "scam_any": 0.9518867924528301,
+     "scam_high": 0.9127358490566038,
+     "benign_any": 0.03480745147150908,
+     "benign_high": 0.014151534126487163
+    }
+   },
+   "cs_sweep": {
+    "0.02": {
+     "intercepted": 0.7224669603524229,
+     "held": 0.2696035242290749,
+     "gen_t3": 0.0019911281379171287,
+     "loss_prev_base": 0.748185128696496,
+     "intercepted_elderly": 0.7127158555729984
+    },
+    "0.05": {
+     "intercepted": 0.7577092511013216,
+     "held": 0.3048458149779736,
+     "gen_t3": 0.004007460429478778,
+     "loss_prev_base": 0.7787991040140138,
+     "intercepted_elderly": 0.7519623233908949
+    },
+    "0.1": {
+     "intercepted": 0.7709251101321586,
+     "held": 0.3180616740088106,
+     "gen_t3": 0.00655307994757536,
+     "loss_prev_base": 0.8159075985929006,
+     "intercepted_elderly": 0.7660910518053375
+    },
+    "0.2": {
+     "intercepted": 0.775330396475771,
+     "held": 0.3224669603524229,
+     "gen_t3": 0.008878163121282387,
+     "loss_prev_base": 0.8197948150670142,
+     "intercepted_elderly": 0.7708006279434851
+    },
+    "0.5": {
+     "intercepted": 0.7779735682819383,
+     "held": 0.3251101321585903,
+     "gen_t3": 0.010453422724064926,
+     "loss_prev_base": 0.8205061106152198,
+     "intercepted_elderly": 0.7723704866562009
+    }
+   },
+   "n_test": 159839,
+   "n_scam_test": 1135,
+   "n_genuine_test": 158704,
+   "tiers_full": {
+    "0": {
+     "0": 156705,
+     "1": 1448,
+     "2": 520,
+     "3": 31
+    },
+    "1": {
+     "0": 80,
+     "1": 41,
+     "2": 266,
+     "3": 748
+    }
+   },
+   "n_payments": 396495,
+   "n_scam": 2705,
+   "share_elderly_scam": 0.5567467652495379,
+   "ctx_scam": {
+    "active_scam": 0.6240295748613678,
+    "ott": 0.16487985212569317,
+    "recent_scam": 0.15970425138632163,
+    "unlinked": 0.051386321626617375
+   },
+   "mule_hit_scam": 0.26728280961182993
+  },
+  "telco": {
+   "sms_eval": {
+    "uci_real_test": {
+     "precision": 0.9859154929577465,
+     "recall": 0.9375,
+     "f1": 0.9610983981693364,
+     "accuracy": 0.9898386132695756,
+     "auc": 0.9940661047027508,
+     "n": 1673
+    },
+    "synthetic_scam_test": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "accuracy": 1.0,
+     "auc": 1.0,
+     "n": 1500
+    },
+    "uci_scamlike": {
+     "n": 109,
+     "share_of_test": 0.06515242080095636,
+     "share_of_spam": 0.48660714285714285,
+     "recall": 0.963302752293578
+    }
+   },
+   "call_eval": {
+    "precision": 1.0,
+    "recall": 0.9911111111111112,
+    "f1": 0.9955357142857143,
+    "accuracy": 0.9955555555555555,
+    "auc": 0.9999978395061728,
+    "n": 3600
+   },
+   "call_loso": {
+    "bank_impersonation": {
+     "precision": 1.0,
+     "recall": 0.7900608519269777,
+     "f1": 0.8827195467422096,
+     "accuracy": 0.8950304259634888,
+     "auc": 0.9994342704557517
+    },
+    "authority_impersonation": {
+     "precision": 1.0,
+     "recall": 0.9,
+     "f1": 0.9473684210526315,
+     "accuracy": 0.95,
+     "auc": 0.9990431070387339
+    },
+    "family_emergency": {
+     "precision": 1.0,
+     "recall": 0.6510263929618768,
+     "f1": 0.7886323268206039,
+     "accuracy": 0.8255131964809385,
+     "auc": 0.9938434577541568
+    },
+    "prize_refund": {
+     "precision": 1.0,
+     "recall": 0.8801169590643275,
+     "f1": 0.9362363919129082,
+     "accuracy": 0.9400584795321637,
+     "auc": 0.999710262226934
+    },
+    "tech_support": {
+     "precision": 1.0,
+     "recall": 0.8181818181818182,
+     "f1": 0.9,
+     "accuracy": 0.9090909090909091,
+     "auc": 0.9991388633812875
+    },
+    "investment": {
+     "precision": 1.0,
+     "recall": 0.8351758793969849,
+     "f1": 0.9101861993428259,
+     "accuracy": 0.9175879396984925,
+     "auc": 0.9982434787000327
+    }
+   },
+   "rep_eval": {
+    "precision": 0.7805671780567178,
+    "recall": 0.6995833333333333,
+    "f1": 0.7378598110305428,
+    "accuracy": 0.9171527777777778,
+    "auc": 0.9565335416666665
+   },
+   "fusion_eval": {
+    "precision": 0.9891435464414958,
+    "recall": 0.9111111111111111,
+    "f1": 0.9485251590514748,
+    "accuracy": 0.9505555555555556,
+    "auc": 0.9946814814814815,
+    "tau": 0.7570908038660951,
+    "false_flag_rate": 0.01,
+    "recall_with_transcript": 0.9974554707379135,
+    "recall_metadata_only": 0.6877470355731226
+   }
+  },
+  "latency": {
+   "bank_decision_ms": 2.3599450209999873,
+   "oprf_ms": 29.2744177000003,
+   "telco_scoring_ms": 3.617936666666613
+  }
+ },
+ "4": {
+  "results": {
+   "Bank ML": {
+    "intercepted": 0.6669513236549958,
+    "held": 0.0,
+    "intercepted_elderly": 0.6681887366818874,
+    "intercepted_nonelderly": 0.6653696498054474,
+    "gen_any": 0.009867402826297072,
+    "gen_t2": 0.0034618032962937225,
+    "gen_t3": 0.0,
+    "hold_precision": 0.0,
+    "int_active_scam": 0.6774193548387096,
+    "int_recent_scam": 0.6490384615384616,
+    "int_ott": 0.6209150326797386,
+    "int_unlinked": 0.7121212121212122,
+    "loss_prev_base": 0.570645643606255,
+    "loss_prev_elderly_base": 0.5552801667406178,
+    "loss_prev_low": 0.4168492076128296,
+    "loss_prev_elderly_low": 0.391869076569624,
+    "loss_prev_high": 0.7025196391751378,
+    "loss_prev_elderly_high": 0.7000976947218849
+   },
+   "Call-status rule": {
+    "intercepted": 0.7463706233988044,
+    "held": 0.3475661827497865,
+    "intercepted_elderly": 0.7488584474885844,
+    "intercepted_nonelderly": 0.7431906614785992,
+    "gen_any": 0.019216798590010045,
+    "gen_t2": 0.013525038060884781,
+    "gen_t3": 0.010467532959778647,
+    "hold_precision": 0.19718992248062014,
+    "int_active_scam": 0.8024193548387096,
+    "int_recent_scam": 0.6490384615384616,
+    "int_ott": 0.6209150326797386,
+    "int_unlinked": 0.7121212121212122,
+    "loss_prev_base": 0.7886989035016617,
+    "loss_prev_elderly_base": 0.8016922498283559,
+    "loss_prev_low": 0.6796532377573281,
+    "loss_prev_elderly_low": 0.6870638149331414,
+    "loss_prev_high": 0.8585047694041844,
+    "loss_prev_elderly_high": 0.8749968376906273
+   },
+   "Call-status + risk": {
+    "intercepted": 0.7335610589239966,
+    "held": 0.33475661827497866,
+    "intercepted_elderly": 0.7351598173515982,
+    "intercepted_nonelderly": 0.7315175097276264,
+    "gen_any": 0.015306476983430092,
+    "gen_t2": 0.009614716454304829,
+    "gen_t3": 0.006557211353198694,
+    "hold_precision": 0.27412587412587414,
+    "int_active_scam": 0.782258064516129,
+    "int_recent_scam": 0.6490384615384616,
+    "int_ott": 0.6209150326797386,
+    "int_unlinked": 0.7121212121212122,
+    "loss_prev_base": 0.7722790697047542,
+    "loss_prev_elderly_base": 0.7774426007512716,
+    "loss_prev_low": 0.6650356174709968,
+    "loss_prev_elderly_low": 0.6655085713090667,
+    "loss_prev_high": 0.8412078923577524,
+    "loss_prev_elderly_high": 0.8493999858870384
+   },
+   "Mule risk feed": {
+    "intercepted": 0.7745516652433817,
+    "held": 0.2775405636208369,
+    "intercepted_elderly": 0.7808219178082192,
+    "intercepted_nonelderly": 0.7665369649805448,
+    "gen_any": 0.009867402826297072,
+    "gen_t2": 0.0034618032962937225,
+    "gen_t3": 0.0,
+    "hold_precision": 1.0,
+    "int_active_scam": 0.7809139784946236,
+    "int_recent_scam": 0.75,
+    "int_ott": 0.7450980392156863,
+    "int_unlinked": 0.8484848484848485,
+    "loss_prev_base": 0.6884045899282183,
+    "loss_prev_elderly_base": 0.6898415702538865,
+    "loss_prev_low": 0.5623507070613427,
+    "loss_prev_elderly_low": 0.5574072418468821,
+    "loss_prev_high": 0.7908428189205953,
+    "loss_prev_elderly_high": 0.8001261624932958
+   },
+   "ScamShield (full)": {
+    "intercepted": 0.9393680614859095,
+    "held": 0.6652433817250214,
+    "intercepted_elderly": 0.9512937595129376,
+    "intercepted_nonelderly": 0.9241245136186771,
+    "gen_any": 0.012615367121712708,
+    "gen_t2": 0.0034239003404948863,
+    "gen_t3": 8.844023019728489e-05,
+    "hold_precision": 0.9823455233291298,
+    "int_active_scam": 0.9905913978494624,
+    "int_recent_scam": 0.9519230769230769,
+    "int_ott": 0.7450980392156863,
+    "int_unlinked": 0.7727272727272727,
+    "loss_prev_base": 0.8876763248433961,
+    "loss_prev_elderly_base": 0.8957168214595679,
+    "loss_prev_low": 0.8067549446869762,
+    "loss_prev_elderly_low": 0.8120386142253819,
+    "loss_prev_high": 0.9352730556899469,
+    "loss_prev_elderly_high": 0.9443573621225423
+   },
+   "ScamShield (message)": {
+    "intercepted": 0.9146029035012809,
+    "held": 0.5482493595217762,
+    "intercepted_elderly": 0.9254185692541856,
+    "intercepted_nonelderly": 0.9007782101167315,
+    "gen_any": 0.013569258175983423,
+    "gen_t2": 0.003493389092792753,
+    "gen_t3": 8.212307089747882e-05,
+    "hold_precision": 0.9801526717557252,
+    "int_active_scam": 0.9637096774193549,
+    "int_recent_scam": 0.9326923076923077,
+    "int_ott": 0.7320261437908496,
+    "int_unlinked": 0.7272727272727273,
+    "loss_prev_base": 0.85194427051259,
+    "loss_prev_elderly_base": 0.8495708809387322,
+    "loss_prev_low": 0.7566664621595224,
+    "loss_prev_elderly_low": 0.7463132263513332,
+    "loss_prev_high": 0.9154957029577844,
+    "loss_prev_elderly_high": 0.9199248766788373
+   },
+   "ScamShield (metadata)": {
+    "intercepted": 0.8830059777967549,
+    "held": 0.408198121263877,
+    "intercepted_elderly": 0.8904109589041096,
+    "intercepted_nonelderly": 0.8735408560311284,
+    "gen_any": 0.014415757522157437,
+    "gen_t2": 0.003228068402200898,
+    "gen_t3": 0.0001200260266963152,
+    "hold_precision": 0.9617706237424547,
+    "int_active_scam": 0.9274193548387096,
+    "int_recent_scam": 0.8701923076923077,
+    "int_ott": 0.738562091503268,
+    "int_unlinked": 0.7575757575757576,
+    "loss_prev_base": 0.8101129170131626,
+    "loss_prev_elderly_base": 0.813020060906698,
+    "loss_prev_low": 0.6936268303587314,
+    "loss_prev_elderly_low": 0.69401893472866,
+    "loss_prev_high": 0.8938230862976364,
+    "loss_prev_elderly_high": 0.8993652512792378
+   },
+   "Metadata, 75% of scam flags": {
+    "intercepted": 0.8505550811272417,
+    "held": 0.37574722459436377,
+    "intercepted_elderly": 0.863013698630137,
+    "intercepted_nonelderly": 0.8346303501945526,
+    "gen_any": 0.01468107821274929,
+    "gen_t2": 0.0033859973846960497,
+    "gen_t3": 0.0001200260266963152,
+    "hold_precision": 0.9586056644880174,
+    "int_active_scam": 0.8911290322580645,
+    "int_recent_scam": 0.7932692307692307,
+    "int_ott": 0.7581699346405228,
+    "int_unlinked": 0.7878787878787878,
+    "loss_prev_base": 0.7786330607659672,
+    "loss_prev_elderly_base": 0.7851220817918407,
+    "loss_prev_low": 0.657513770605251,
+    "loss_prev_elderly_low": 0.6632577029974979,
+    "loss_prev_high": 0.8706641987509278,
+    "loss_prev_elderly_high": 0.8777798836507085
+   },
+   "Metadata, 50% of scam flags": {
+    "intercepted": 0.8257899231426131,
+    "held": 0.3484201537147737,
+    "intercepted_elderly": 0.8280060882800608,
+    "intercepted_nonelderly": 0.8229571984435797,
+    "gen_any": 0.015552846196122528,
+    "gen_t2": 0.0037650269426844135,
+    "gen_t3": 0.0001200260266963152,
+    "hold_precision": 0.955503512880562,
+    "int_active_scam": 0.8548387096774194,
+    "int_recent_scam": 0.7740384615384616,
+    "int_ott": 0.7581699346405228,
+    "int_unlinked": 0.8181818181818182,
+    "loss_prev_base": 0.7352872383852604,
+    "loss_prev_elderly_base": 0.7409884181427262,
+    "loss_prev_low": 0.6120806953086919,
+    "loss_prev_elderly_low": 0.6163384496256085,
+    "loss_prev_high": 0.8331466347977395,
+    "loss_prev_elderly_high": 0.8402587022338318
+   },
+   "Full, exact raw match": {
+    "intercepted": 0.9359521776259607,
+    "held": 0.5935098206660974,
+    "intercepted_elderly": 0.9497716894977168,
+    "intercepted_nonelderly": 0.9182879377431906,
+    "gen_any": 0.01238794938691969,
+    "gen_t2": 0.003531292048591589,
+    "gen_t3": 7.580591159767277e-05,
+    "hold_precision": 0.983026874115983,
+    "int_active_scam": 0.9865591397849462,
+    "int_recent_scam": 0.9567307692307693,
+    "int_ott": 0.7450980392156863,
+    "int_unlinked": 0.7424242424242424,
+    "loss_prev_base": 0.8747053822191496,
+    "loss_prev_elderly_base": 0.8805751337480578,
+    "loss_prev_low": 0.7871256234574837,
+    "loss_prev_elderly_low": 0.7889837360405048,
+    "loss_prev_high": 0.9281848631001245,
+    "loss_prev_elderly_high": 0.9371500209251442
+   },
+   "Full, canonical, no expansion": {
+    "intercepted": 0.9402220324508966,
+    "held": 0.6558497011101623,
+    "intercepted_elderly": 0.9528158295281582,
+    "intercepted_nonelderly": 0.9241245136186771,
+    "gen_any": 0.012432169502018333,
+    "gen_t2": 0.0033923145439958557,
+    "gen_t3": 8.844023019728489e-05,
+    "hold_precision": 0.9820971867007673,
+    "int_active_scam": 0.9905913978494624,
+    "int_recent_scam": 0.9567307692307693,
+    "int_ott": 0.7450980392156863,
+    "int_unlinked": 0.7727272727272727,
+    "loss_prev_base": 0.8872431184549185,
+    "loss_prev_elderly_base": 0.8929052023421414,
+    "loss_prev_low": 0.805694127132192,
+    "loss_prev_elderly_low": 0.8077614063401137,
+    "loss_prev_high": 0.9356561497069503,
+    "loss_prev_elderly_high": 0.942886061296296
+   },
+   "Full, no active-call rule": {
+    "intercepted": 0.9368061485909479,
+    "held": 0.5456874466268147,
+    "intercepted_elderly": 0.9482496194824962,
+    "intercepted_nonelderly": 0.9221789883268483,
+    "gen_any": 0.010675999216672246,
+    "gen_t2": 0.0033354601102976015,
+    "gen_t3": 1.895147789941819e-05,
+    "hold_precision": 0.9953271028037384,
+    "int_active_scam": 0.9905913978494624,
+    "int_recent_scam": 0.9375,
+    "int_ott": 0.7450980392156863,
+    "int_unlinked": 0.7727272727272727,
+    "loss_prev_base": 0.845337917082928,
+    "loss_prev_elderly_base": 0.8387856796685232,
+    "loss_prev_low": 0.746218429486535,
+    "loss_prev_elderly_low": 0.7329347744753878,
+    "loss_prev_high": 0.91405566476518,
+    "loss_prev_elderly_high": 0.9149077880989775
+   }
+  },
+  "friction": {
+   "f_hat": 0.005704639385296001,
+   "q_call": 0.07527527021648905,
+   "q_new": 0.07055003506023412,
+   "q_call_and_new": 0.010467532959778647,
+   "predicted": 5.971350078923729e-05,
+   "measured": 6.94887522978667e-05,
+   "callstatus_measured": 0.010467532959778647
+  },
+  "benef": {
+   "raw": {
+    "exact": 0.536734693877551,
+    "any": 0.536734693877551
+   },
+   "canon": {
+    "exact": 0.9040816326530612,
+    "any": 0.9040816326530612
+   },
+   "exp": {
+    "exact": 0.9040816326530612,
+    "any": 0.9918367346938776
+   },
+   "n": 490,
+   "genuine_variant_matches": 3,
+   "genuine_exact_matches": 3,
+   "genuine_n": 158299
+  },
+  "meta": {
+   "flags": {
+    "meta": {
+     "scam_any": 0.7801484230055659,
+     "scam_high": 0.5171614100185529,
+     "benign_any": 0.059506161400907996,
+     "benign_high": 0.012616201859229747
+    },
+    "msg": {
+     "scam_any": 0.8947124304267161,
+     "scam_high": 0.7527829313543599,
+     "benign_any": 0.045021464529478986,
+     "benign_high": 0.008840606565984125
+    },
+    "full": {
+     "scam_any": 0.9457328385899815,
+     "scam_high": 0.8650278293135436,
+     "benign_any": 0.02873776212977547,
+     "benign_high": 0.005690416628061398
+    }
+   },
+   "cs_sweep": {
+    "0.02": {
+     "intercepted": 0.6891545687446626,
+     "held": 0.29035012809564475,
+     "gen_t3": 0.0019646365422396855,
+     "loss_prev_base": 0.7267545228153494,
+     "intercepted_elderly": 0.6910197869101978
+    },
+    "0.05": {
+     "intercepted": 0.7190435525192144,
+     "held": 0.32023911187019644,
+     "gen_t3": 0.004099836385574135,
+     "loss_prev_base": 0.7580232963099196,
+     "intercepted_elderly": 0.7245053272450532
+    },
+    "0.1": {
+     "intercepted": 0.7335610589239966,
+     "held": 0.33475661827497866,
+     "gen_t3": 0.006557211353198694,
+     "loss_prev_base": 0.7722790697047542,
+     "intercepted_elderly": 0.7351598173515982
+    },
+    "0.2": {
+     "intercepted": 0.7438087105038429,
+     "held": 0.34500426985482496,
+     "gen_t3": 0.009052489276622088,
+     "loss_prev_base": 0.7864465217591724,
+     "intercepted_elderly": 0.7488584474885844
+    },
+    "0.5": {
+     "intercepted": 0.7463706233988044,
+     "held": 0.3475661827497865,
+     "gen_t3": 0.010139040676188732,
+     "loss_prev_base": 0.7886989035016617,
+     "intercepted_elderly": 0.7488584474885844
+    }
+   },
+   "n_test": 159470,
+   "n_scam_test": 1171,
+   "n_genuine_test": 158299,
+   "tiers_full": {
+    "0": {
+     "0": 156302,
+     "1": 1455,
+     "2": 528,
+     "3": 14
+    },
+    "1": {
+     "0": 71,
+     "1": 47,
+     "2": 274,
+     "3": 779
+    }
+   },
+   "n_payments": 400373,
+   "n_scam": 2685,
+   "share_elderly_scam": 0.5672253258845438,
+   "ctx_scam": {
+    "active_scam": 0.6361266294227188,
+    "recent_scam": 0.16685288640595902,
+    "ott": 0.14450651769087522,
+    "unlinked": 0.05251396648044693
+   },
+   "mule_hit_scam": 0.288268156424581
+  },
+  "telco": {
+   "sms_eval": {
+    "uci_real_test": {
+     "precision": 1.0,
+     "recall": 0.9241071428571429,
+     "f1": 0.9605568445475638,
+     "accuracy": 0.9898386132695756,
+     "auc": 0.994583703046436,
+     "n": 1673
+    },
+    "synthetic_scam_test": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "accuracy": 1.0,
+     "auc": 0.9999999999999999,
+     "n": 1500
+    },
+    "uci_scamlike": {
+     "n": 112,
+     "share_of_test": 0.06694560669456066,
+     "share_of_spam": 0.5,
+     "recall": 0.9642857142857143
+    }
+   },
+   "call_eval": {
+    "precision": 1.0,
+    "recall": 0.9944444444444445,
+    "f1": 0.9972144846796658,
+    "accuracy": 0.9972222222222222,
+    "auc": 0.999995987654321,
+    "n": 3600
+   },
+   "call_loso": {
+    "bank_impersonation": {
+     "precision": 1.0,
+     "recall": 0.7975334018499486,
+     "f1": 0.8873642081189251,
+     "accuracy": 0.8987667009249743,
+     "auc": 0.9990176703153701
+    },
+    "authority_impersonation": {
+     "precision": 1.0,
+     "recall": 0.888671875,
+     "f1": 0.9410548086866598,
+     "accuracy": 0.9443359375,
+     "auc": 0.9996623992919922
+    },
+    "family_emergency": {
+     "precision": 1.0,
+     "recall": 0.6599597585513078,
+     "f1": 0.7951515151515152,
+     "accuracy": 0.829979879275654,
+     "auc": 0.9962946694250008
+    },
+    "prize_refund": {
+     "precision": 1.0,
+     "recall": 0.8938967136150234,
+     "f1": 0.9439762022806147,
+     "accuracy": 0.9469483568075118,
+     "auc": 0.9996676144503956
+    },
+    "tech_support": {
+     "precision": 1.0,
+     "recall": 0.8711340206185567,
+     "f1": 0.931129476584022,
+     "accuracy": 0.9355670103092784,
+     "auc": 0.9993984482941864
+    },
+    "investment": {
+     "precision": 1.0,
+     "recall": 0.8316221765913757,
+     "f1": 0.9080717488789237,
+     "accuracy": 0.9158110882956879,
+     "auc": 0.9987076725879015
+    }
+   },
+   "rep_eval": {
+    "precision": 0.7829885057471264,
+    "recall": 0.7095833333333333,
+    "f1": 0.7444808743169399,
+    "accuracy": 0.9188194444444444,
+    "auc": 0.9554956597222224
+   },
+   "fusion_eval": {
+    "precision": 0.9886075949367089,
+    "recall": 0.8677777777777778,
+    "f1": 0.9242603550295858,
+    "accuracy": 0.9288888888888889,
+    "auc": 0.9946654320987653,
+    "tau": 0.90917529661526,
+    "false_flag_rate": 0.01,
+    "recall_with_transcript": 0.9763593380614657,
+    "recall_metadata_only": 0.5521739130434783
+   }
+  },
+  "latency": {
+   "bank_decision_ms": 2.030925042000007,
+   "oprf_ms": 29.2896666499999,
+   "telco_scoring_ms": 3.6123298633333434
+  }
+ }
+}
