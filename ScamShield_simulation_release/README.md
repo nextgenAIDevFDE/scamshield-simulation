@@ -7,16 +7,25 @@ Real bank and telecom records are confidential and cannot be disclosed, so the p
 agent-based simulation. This repository regenerates every simulation number, table and figure in the paper.
 
 ## Reproduce
-1. Python 3.13 and the pinned packages: `pip install -r requirements.txt`
+1. Install **Python 3.13** and the pinned packages: `pip install -r requirements.txt`
+   (the pinned versions need Python 3.13; check with `python3 --version`).
 2. Download the UCI SMS Spam Collection (Almeida et al., 2011): https://archive.ics.uci.edu/dataset/228/sms+spam+collection
    Unzip it and save the file `SMSSpamCollection` as `data/sms.tsv`.
 3. Run `bash reproduce.sh` (about 7 minutes per seed on 2 CPU cores, including the sensitivity sweeps).
    On Windows, run the commands in `reproduce.sh` one by one with `python` instead of `python3`.
-4. `verify.py` prints `REPRODUCED EXACTLY` when every value matches the shipped outputs in `expected/`
-   (timing fields excluded). Exact agreement assumes the pinned package versions.
-   `make_tables.py` prints Tables XI and XII exactly as in the paper; compare with `expected/tables.txt`.
 
-Quick check with one seed (about 7 minutes):
+## Check the results
+- **Exact check** (Python 3.13 with the pinned versions): `python3 verify.py results/results.json expected/results.json`
+  prints `REPRODUCED EXACTLY` when every value matches the shipped outputs (timing fields excluded).
+- **Headline check** (any other Python or library versions): small numerical differences between library versions
+  change individual values slightly, so compare the paper's headline results instead:
+  `python3 verify.py --summary results/agg.json expected/agg.json --tol 1`
+  It prints each system's loss prevented, share held, share intercepted and genuine holds next to the paper's
+  values and confirms they agree within 1 percentage point. (On Python 3.9 with numpy 2.0, pandas 2.3 and
+  scikit-learn 1.6 the largest difference we observed was 0.6 points.)
+- `python3 make_tables.py` prints the main results table; compare with `expected/tables.txt`.
+
+Quick test with one seed (about 7 minutes):
 ```
 mkdir -p results figs
 python3 simulate.py 0
@@ -34,7 +43,7 @@ python3 verify.py results/results.json expected/results.json
 | `aggregate.py` | Mean ± SD across runs -> `results/agg.json`, Fig. 4 |
 | `make_tables.py` | Prints Tables XI and XII from `results/agg.json` |
 | `figs_concept.py` | Framework diagrams (Figs. 1–3) |
-| `verify.py` | Compares a fresh run with the shipped raw outputs |
+| `verify.py` | Compares a fresh run with the shipped outputs: exact check, or `--summary` headline check |
 | `expected/` | Raw per-seed outputs, aggregated values and printed tables used in the paper |
 | `PARAMETERS.md` | All simulation parameters and where they are set |
 | `requirements.txt` | Pinned package versions |

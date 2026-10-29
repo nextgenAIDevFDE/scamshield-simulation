@@ -1,0 +1,8 @@
+# local environment and run outputs (shipped reference outputs live in expected/)
+.venv/
+venv/
+__pycache__/
+.DS_Store
+data/
+results/
+figs/
